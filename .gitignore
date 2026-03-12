@@ -1,29 +1,28 @@
-# Python cache
+# Ignore Python cache
 __pycache__/
 *.pyc
 
-# Virtual environment
+# Virtual environments
 venv/
 env/
 
 # Jupyter / IPython
 .ipynb_checkpoints/
 
-# Large files
-*.pdf
-*.csv
-*.xlsx
-*.tmp
-
-# IDE / Editor
-.vscode/
-*.sublime-project
-*.sublime-workspace
-# Ignore build artifacts
+# Build / dist artifacts
 build/
 dist/
 *.pyz
 *.pkg
 
-# OneDrive / OS temp files
+# Large data / temp files
+*.csv
+*.xlsx
+*.pdf
+*.tmp
 ~$*
+
+# IDE / editor folders
+.vscode/
+*.sublime-project
+*.sublime-workspace
