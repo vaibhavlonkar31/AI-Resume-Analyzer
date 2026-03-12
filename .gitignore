@@ -13,12 +13,12 @@ env/
 *.pdf
 *.csv
 *.xlsx
+*.tmp
 
-# VSCode / IDE
+# IDE / Editor
 .vscode/
 *.sublime-project
 *.sublime-workspace
 
 # OneDrive / OS temp files
 ~$*
-*.tmp
