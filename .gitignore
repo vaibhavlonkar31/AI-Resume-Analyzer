@@ -1,0 +1,24 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+env/
+
+# Jupyter / IPython
+.ipynb_checkpoints/
+
+# Large files
+*.pdf
+*.csv
+*.xlsx
+
+# VSCode / IDE
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# OneDrive / OS temp files
+~$*
+*.tmp

@@ -1,0 +1,14 @@
+streamlit
+pdfminer.six
+python-docx
+spacy
+sentence-transformers
+scikit-learn
+pandas
+openai
+Flask
+sentence-transformers
+scikit-learn
+fuzzywuzzy
+python-Levenshtein
+numpy
