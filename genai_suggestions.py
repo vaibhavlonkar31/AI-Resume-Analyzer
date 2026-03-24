@@ -1,7 +1,10 @@
 from groq import Groq
 import os
+from dotenv import load_dotenv
 
-client = Groq(api_key=os.getenv("REMOVED"))
+load_dotenv()
+
+client = Groq(api_key=os.getenv("GROQ_API_KEY"))
 
 def generate_suggestions(resume, jd):
 

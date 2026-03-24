@@ -4,6 +4,7 @@ git commit -m "fix: remove large files"
 git push
 
 echo "env/" >> .gitignore
+echo ".env" >> .gitignore
 
 git restore Extract_resumes/extract_pdf.py
 git restore assets/animation.json
