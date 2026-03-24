@@ -1,28 +1,11 @@
-# Ignore Python cache
-__pycache__/
-*.pyc
+git rm -r --cached .
+git add .
+git commit -m "fix: remove large files"
+git push
 
-# Virtual environments
-venv/
-env/
+echo "env/" >> .gitignore
 
-# Jupyter / IPython
-.ipynb_checkpoints/
+git restore Extract_resumes/extract_pdf.py
+git restore assets/animation.json
+git restore data/job_descriptions.json
 
-# Build / dist artifacts
-build/
-dist/
-*.pyz
-*.pkg
-
-# Large data / temp files
-*.csv
-*.xlsx
-*.pdf
-*.tmp
-~$*
-
-# IDE / editor folders
-.vscode/
-*.sublime-project
-*.sublime-workspace
