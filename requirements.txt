@@ -16,3 +16,4 @@ plotly
 seaborn
 matplotlib
 groq
+python-dotenv
