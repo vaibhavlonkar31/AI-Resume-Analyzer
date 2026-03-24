@@ -13,3 +13,5 @@ fuzzywuzzy
 python-Levenshtein
 numpy
 plotly
+seaborn
+matplotlib
